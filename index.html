@@ -58,7 +58,7 @@ a:hover {cursor: url(https://i.imgur.com/7W4U9Zv.png), progress;
 ::-webkit-scrollbar {
 width: 4px;
 height: 4px;
-background: #FFF9F9;
+background: transparent;
 }
 ::-webkit-scrollbar-thumb {
 background-color: #f9f0ed;
@@ -66,9 +66,10 @@ background-color: #f9f0ed;
 border: 1px dotted #e2d5d0;
 }
 </style>
+
 <script>
   var widgetCSS = "" +
-    ".timeline-Tweet-text{color: #857171; zoom:75%; font-family:verdana; !important;}" +
+    ".timeline-Tweet-text{color: #857171; zoom:75%; font-family:verdana; -webkit-text-size-adjust: 50%; text-size-adjust: 50%; !important;}" +
     "span.TweetAuthor-screenName{color: #BC9F9F; font-size:8px; font-family:verdana; !important;}" +
     ".timeline-Tweet-retweetCredit{color: #BC9F9F; font-size:8px; font-family:verdana; !important;}" +
     ".timeline-Tweet-retweetCreditIcon{display:none; !important;}" +
@@ -106,6 +107,28 @@ border: 1px dotted #e2d5d0;
 window.addEventListener("load", customTwitter);
 </script>
 </head>
+
+<style>
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+@media screen and (max-width: 1000px) and (orientation: portrait){
+#everything { position: absolute; zoom: 120%;
+	left:750px;
+	top:30px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+}
+@media screen and (max-width: 1000px) and (orientation: landscape){
+#everything { position: absolute; zoom: 100%; left:20px; top:50px;}
+}
+</style>
+
+<div id="everything">
 
 <body ondragstart="return false" style="background-image:url(https://i.imgur.com/eXmjvwI.png); background-color:#fefbfb; font-family: Verdana; font-size: 10px;">
 
@@ -328,12 +351,13 @@ next ﻿-﻿›
 
 <div id="stories3" style="display:none;">
 
-<img id="story3" src="https://file.pooftie.me/ig/templates%20(42).png"
+<img id="story3" src="https://file.pooftie.me/ig/templates%20(43).png"
 style="position:absolute; z-index:12; left:125px; top:15px; width:360px; height:auto; border: 10px solid transparent; border-image: url(https://i.imgur.com/sYxacdk.png) 20 round;"/>
 
 <script>
 function storyy3(){
-	var stories3 = ["https://file.pooftie.me/ig/templates%20(42).png",
+	var stories3 = ["https://file.pooftie.me/ig/templates%20(43).png",
+"https://file.pooftie.me/ig/templates%20(42).png",
 "https://file.pooftie.me/ig/templates%20(41).png",
 "https://file.pooftie.me/ig/templates%20(40).png",
 "https://file.pooftie.me/ig/templates%20(39).png",
@@ -447,9 +471,9 @@ next ﻿-﻿›
 
 
 
-<div style="position:absolute; z-index:30; top:10px; left:620px; background-image:url(https://i.imgur.com/XaXBfwR.png); padding:10px;background-repeat: no-repeat; width:290px; height:280px; overflow: auto; color: #BC9F9F; text-align: justify; font-family: Verdana; font-size:8px; line-height: 100%">
+<div style="position:absolute; z-index:30; top:10px; left:620px; background-image:url(https://i.imgur.com/XaXBfwR.png); padding:10px;background-repeat: no-repeat; width:290px; height:280px; overflow: auto; color: #BC9F9F; text-align: justify; font-family: Verdana; font-size:8px; line-height: 100%;">
 <font style="font-size:9px; float:right; padding-bottom:8px;"><a id="linkbjinho" style="color: #c9a3a3; text-decoration:none; border-bottom:1px dotted #c6a799;" href="https://twitter.com/pooftie" target="_blank">@pooftie</a> 𝑜𝑛 𝑡𝑤𝑖𝑡𝑡𝑒𝑟　</font>
-<div style="border: none; width: 280px; height: 255px; margin-top:3px; overflow-x:hidden; padding-right:5px; padding-left:5px;">
+<div style="border: none; width: 280px; height: 255px; margin-top:3px; overflow-x:hidden; overflow: auto; overflow: scroll; padding-right:5px; padding-left:5px;">
 <a class="twitter-timeline" href="https://twitter.com/pooftie" data-chrome="noheader nofooter noborders transparent noscrollbar" width="290px"></a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
