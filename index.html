@@ -135,6 +135,8 @@ html {
 #miniteddy2:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniteddy3{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniteddy3:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniteddy4{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniteddy4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 
 #minidoily1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
@@ -143,6 +145,8 @@ html {
 #minidoily2:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #minidoily3{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minidoily3:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#minidoily4{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#minidoily4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #miniframe1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniframe1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -150,6 +154,8 @@ html {
 #miniframe2:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniframe3{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniframe3:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniframe4{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniframe4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #miniradio1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniradio1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -161,6 +167,8 @@ html {
 #miniradio4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniradio5{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniradio5:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniradio6{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniradio6:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #minipc1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minipc1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -172,6 +180,8 @@ html {
 #minipc4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #minipc5{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minipc5:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#minipc6{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#minipc6:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 </style>
 
@@ -247,6 +257,13 @@ document.getElementById("teddy3").style.display = "block";
 function closeTeddy3(){
 document.getElementById("teddy3").style.display = "none";
 }
+function openTeddy4(){
+document.getElementById("teddy4").style.display = "block";
+}
+function closeTeddy4(){
+document.getElementById("teddy4").style.display = "none";
+}
+
 
 
 
@@ -267,6 +284,12 @@ document.getElementById("doily3").style.display = "block";
 }
 function closeDoily3(){
 document.getElementById("doily3").style.display = "none";
+}
+function openDoily4(){
+document.getElementById("doily4").style.display = "block";
+}
+function closeDoily4(){
+document.getElementById("doily4").style.display = "none";
 }
 
 
@@ -289,6 +312,13 @@ document.getElementById("frame3").style.display = "block";
 function closeFrame3(){
 document.getElementById("frame3").style.display = "none";
 }
+function openFrame4(){
+document.getElementById("frame4").style.display = "block";
+}
+function closeFrame4(){
+document.getElementById("frame4").style.display = "none";
+}
+
 
 
 
@@ -322,6 +352,12 @@ document.getElementById("pc5").style.display = "block";
 function closePc5(){
 document.getElementById("pc5").style.display = "none";
 }
+function openPc6(){
+document.getElementById("pc6").style.display = "block";
+}
+function closePc6(){
+document.getElementById("pc6").style.display = "none";
+}
 </script>
 
 
@@ -334,6 +370,8 @@ style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <a><img onclick="openTeddy2()" class="miniteddy2" id="miniteddy2" src="https://i.imgur.com/V4Sfc3M.png"
 style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <a><img onclick="openTeddy3()" class="miniteddy3" id="miniteddy3" src="https://i.imgur.com/z2kegac.png"
+style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
+<a><img onclick="openTeddy4()" class="miniteddy4" id="miniteddy4" src="https://i.imgur.com/TD3mTHN.png"
 style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 </div>
 
@@ -355,6 +393,12 @@ style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <img src="https://i.imgur.com/IzlEY1n.png" style="position:absolute; z-index:28; top:110px; left:340px;">
 </div>
 
+<div id="teddy4" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeTeddy4()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/thB65pK.png" style="position:absolute; z-index:28; top:110px; left:340px;">
+</div>
+
 
 
 
@@ -368,6 +412,8 @@ style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:3
 <a><img onclick="openDoily2()" class="minidoily2" id="minidoily2" src="https://i.imgur.com/dWqU7rX.png"
 style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
 <a><img onclick="openDoily3()" class="minidoily3" id="minidoily3" src="https://i.imgur.com/M5LsPc0.png"
+style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
+<a><img onclick="openDoily4()" class="minidoily4" id="minidoily4" src="https://i.imgur.com/rOEl1po.png"
 style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
 </div>
 
@@ -389,6 +435,11 @@ style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:3
 <img src="https://i.imgur.com/crrbkk9.png" style="position:absolute; z-index:28; top:80px; left:460px;">
 </div>
 
+<div id="doily4" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeDoily4()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/rOEl1po.png" style="position:absolute; z-index:28; top:80px; left:460px;">
+</div>
 
 
 
@@ -403,6 +454,8 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <a><img onclick="openFrame2()" class="miniframe2" id="miniframe2" src="https://i.imgur.com/z5ttFm5.png"
 style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
 <a><img onclick="openFrame3()" class="miniframe3" id="miniframe3" src="https://i.imgur.com/IbBkloL.png"
+style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
+<a><img onclick="openFrame4()" class="miniframe4" id="miniframe4" src="https://i.imgur.com/WxYyZLL.png"
 style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
 </div>
 
@@ -425,6 +478,11 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <img src="https://i.imgur.com/qQMmdUj.png" style="position:absolute; z-index:28; top:120px; left:380px;">
 </div>
 
+<div id="frame4" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeFrame4()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/WxYyZLL.png" style="position:absolute; z-index:28; top:120px; left:380px;">
+</div>
 
 
 
@@ -475,6 +533,14 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <audio id="audio5" src="https://files.catbox.moe/ly3kvi.mp3" type="audio/mpeg" loop></audio>
 </div>
 
+<div class="miniradio6" style="display:none;">
+<script>function playa6(){document.getElementById("miniradio6-2").style.display = "block";document.getElementById("miniradio6").style.display = "none";} function pausea6(){document.getElementById("miniradio6").style.display = "block";document.getElementById("miniradio6-2").style.display = "none";}</script>
+<marquee style="color:#fff; font-size:9px; font-family:verdana; letter-spacing:1px; position:absolute; width:118px; z-index:3; top:478px; left:972px;">orisinal - flowers</marquee>
+<a><img onclick="audio6.play(); playa6();" id="miniradio6" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: block;"></a>
+<a><img onclick="audio6.pause(); pausea6();" id="miniradio6-2" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: none;"></a>
+<audio id="audio6" src="https://files.catbox.moe/1bmq4f.mp3" type="audio/mpeg" loop></audio>
+</div>
+
 
 
 
@@ -493,6 +559,8 @@ style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 <a><img onclick="openPc4(); video4.play();" class="minipc4" id="minipc4" src="https://i.imgur.com/4Dv16hY.png"
 style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 <a><img onclick="openPc5(); video5.play();" class="minipc5" id="minipc5" src="https://i.imgur.com/rRebUfX.png"
+style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
+<a><img onclick="openPc6(); video6.play();" class="minipc6" id="minipc6" src="https://i.imgur.com/KyNIX0m.png"
 style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 </div>
 
@@ -589,6 +657,23 @@ function video5unmute() { vid5.volume = 1;}</script>
 </div>
 
 
+<div id="pc6" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closePc6(); video6.pause();" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<div style="position:absolute; z-index:30; top:462px; left:520px; width:300px; height:15px;"><font style="color:#BC9F9F; font-size:11px; font-family:verdana; letter-spacing:1px;">꒰ <a style="text-decoration: none;" id="linkbjinho" href="https://youtu.be/5itl-NItMdI" target="_blank">source</a> ꒱</font></div>
+
+<script>function pausev6(){document.getElementById("paused6").style.display = "block";document.getElementById("playd6").style.display = "none";} function playv6(){document.getElementById("playd6").style.display = "block";document.getElementById("paused6").style.display = "none";}</script>
+<img onclick="video6mute(); pausev6();" id="playd6" src="https://i.imgur.com/LWKfsRR.png" style="display: block; position:absolute; z-index:29; top:100px; left:420px;">
+<img onclick="video6unmute(); playv6();" id="paused6" src="https://i.imgur.com/LWKfsRR.png" style="display: none; position:absolute; z-index:29; top:100px; left:420px;">
+<video id="video6" width="400px" height="295px" style="filter: saturate(70%) brightness(105%); background-color: rgba(255,255,255,0.5); position:absolute; z-index:27; top:148px; left:520px; object-fit: cover;" loop poster="https://i.imgur.com/AoB9RMv.png" onplaying="hideControls6(this)" onwaiting="showControls6(this)">
+<source src="https://files.catbox.moe/87gqf0.mp4" type="video/mp4"/>
+</video>
+<script>var vid6 = document.getElementById("video6");
+function video6mute() { vid6.volume = 0;} 
+function video6unmute() { vid6.volume = 1;}</script>
+<div style="width: 400px; height:295px; background-color: rgba(255,255,255,0.25); position:absolute; z-index:28; top:148px; left:520px; object-fit: cover;"></div>
+<script>function hideControls6(event){ event.controls=false; } function showControls6(event){ setTimeout(function(){ event.controls=true; },1000); }</script>
+</div>
 
 
 
