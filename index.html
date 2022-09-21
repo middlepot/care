@@ -139,6 +139,8 @@ html {
 #miniteddy4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniteddy5{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniteddy5:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniteddy6{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniteddy6:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 
 #minidoily1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
@@ -151,6 +153,8 @@ html {
 #minidoily4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #minidoily5{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minidoily5:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#minidoily6{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#minidoily6:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #miniframe1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniframe1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -160,6 +164,8 @@ html {
 #miniframe3:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniframe4{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniframe4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniframe5{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniframe5:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #miniradio1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniradio1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -179,6 +185,10 @@ html {
 #miniradio8:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniradio9{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniradio9:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniradio10{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniradio10:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniradio11{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniradio11:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #minipc1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minipc1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -196,6 +206,10 @@ html {
 #minipc7:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #minipc8{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minipc8:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#minipc9{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#minipc9:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#minipc10{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#minipc10:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 </style>
 
@@ -283,6 +297,12 @@ document.getElementById("teddy5").style.display = "block";
 function closeTeddy5(){
 document.getElementById("teddy5").style.display = "none";
 }
+function openTeddy6(){
+document.getElementById("teddy6").style.display = "block";
+}
+function closeTeddy6(){
+document.getElementById("teddy6").style.display = "none";
+}
 
 
 
@@ -318,6 +338,13 @@ document.getElementById("doily5").style.display = "block";
 function closeDoily5(){
 document.getElementById("doily5").style.display = "none";
 }
+function openDoily6(){
+document.getElementById("doily6").style.display = "block";
+}
+function closeDoily6(){
+document.getElementById("doily6").style.display = "none";
+}
+
 
 
 
@@ -345,6 +372,13 @@ document.getElementById("frame4").style.display = "block";
 function closeFrame4(){
 document.getElementById("frame4").style.display = "none";
 }
+function openFrame5(){
+document.getElementById("frame5").style.display = "block";
+}
+function closeFrame5(){
+document.getElementById("frame5").style.display = "none";
+}
+
 
 
 
@@ -397,6 +431,18 @@ document.getElementById("pc8").style.display = "block";
 function closePc8(){
 document.getElementById("pc8").style.display = "none";
 }
+function openPc9(){
+document.getElementById("pc9").style.display = "block";
+}
+function closePc9(){
+document.getElementById("pc9").style.display = "none";
+}
+function openPc10(){
+document.getElementById("pc10").style.display = "block";
+}
+function closePc10(){
+document.getElementById("pc10").style.display = "none";
+}
 </script>
 
 
@@ -413,6 +459,8 @@ style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <a><img onclick="openTeddy4()" class="miniteddy4" id="miniteddy4" src="https://i.imgur.com/TD3mTHN.png"
 style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <a><img onclick="openTeddy5()" class="miniteddy5" id="miniteddy5" src="https://i.imgur.com/EPOT1KF.png"
+style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
+<a><img onclick="openTeddy6()" class="miniteddy6" id="miniteddy6" src="https://i.imgur.com/jimY83R.png"
 style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 </div>
 
@@ -446,6 +494,12 @@ style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <img src="https://i.imgur.com/wZ2RLsm.png" style="position:absolute; z-index:28; top:110px; left:340px;">
 </div>
 
+<div id="teddy6" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeTeddy6()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/QyIFDLQ.png" style="position:absolute; z-index:28; top:110px; left:340px;">
+</div>
+
 
 
 
@@ -462,6 +516,8 @@ style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:3
 <a><img onclick="openDoily4()" class="minidoily4" id="minidoily4" src="https://i.imgur.com/rOEl1po.png"
 style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
 <a><img onclick="openDoily5()" class="minidoily5" id="minidoily5" src="https://i.imgur.com/lu9upHp.png"
+style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
+<a><img onclick="openDoily6()" class="minidoily6" id="minidoily6" src="https://i.imgur.com/1Xq1sTg.png"
 style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
 </div>
 
@@ -495,6 +551,12 @@ style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:3
 <img src="https://i.imgur.com/lu9upHp.png" style="position:absolute; z-index:28; top:80px; left:460px;">
 </div>
 
+<div id="doily6" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeDoily6()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/1Xq1sTg.png" style="position:absolute; z-index:28; top:80px; left:460px;">
+</div>
+
 
 
 
@@ -509,6 +571,8 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <a><img onclick="openFrame3()" class="miniframe3" id="miniframe3" src="https://i.imgur.com/IbBkloL.png"
 style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
 <a><img onclick="openFrame4()" class="miniframe4" id="miniframe4" src="https://i.imgur.com/WxYyZLL.png"
+style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
+<a><img onclick="openFrame5()" class="miniframe5" id="miniframe5" src="https://i.imgur.com/yb2NywG.png"
 style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
 </div>
 
@@ -537,6 +601,11 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <img src="https://i.imgur.com/WxYyZLL.png" style="position:absolute; z-index:28; top:120px; left:380px;">
 </div>
 
+<div id="frame5" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeFrame5()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/yb2NywG.png" style="position:absolute; z-index:28; top:120px; left:380px;">
+</div>
 
 
 
@@ -621,9 +690,21 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <audio id="audio9" src="https://files.catbox.moe/2u3sci.mp3" type="audio/mpeg" loop></audio>
 </div>
 
+<div class="miniradio10" style="display:none;">
+<script>function playa10(){document.getElementById("miniradio10-2").style.display = "block";document.getElementById("miniradio10").style.display = "none";} function pausea10(){document.getElementById("miniradio10").style.display = "block";document.getElementById("miniradio10-2").style.display = "none";}</script>
+<marquee style="color:#fff; font-size:9px; font-family:verdana; letter-spacing:1px; position:absolute; width:118px; z-index:3; top:478px; left:972px;">ulu - serena</marquee>
+<a><img onclick="audio10.play(); playa10();" id="miniradio10" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: block;"></a>
+<a><img onclick="audio10.pause(); pausea10();" id="miniradio10-2" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: none;"></a>
+<audio id="audio10" src="https://files.catbox.moe/3swjpz.mp3" type="audio/mpeg" loop></audio>
+</div>
 
-
-
+<div class="miniradio11" style="display:none;">
+<script>function playa11(){document.getElementById("miniradio11-2").style.display = "block";document.getElementById("miniradio11").style.display = "none";} function pausea11(){document.getElementById("miniradio11").style.display = "block";document.getElementById("miniradio11-2").style.display = "none";}</script>
+<marquee style="color:#fff; font-size:9px; font-family:verdana; letter-spacing:1px; position:absolute; width:118px; z-index:3; top:478px; left:972px;">orisinal - pocketful of stars</marquee>
+<a><img onclick="audio11.play(); playa11();" id="miniradio11" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: block;"></a>
+<a><img onclick="audio11.pause(); pausea11();" id="miniradio11-2" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: none;"></a>
+<audio id="audio11" src="https://files.catbox.moe/vsl353.mp3" type="audio/mpeg" loop></audio>
+</div>
 
 
 
@@ -644,6 +725,10 @@ style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 <a><img onclick="openPc7(); video7.play();" class="minipc7" id="minipc7" src="https://i.imgur.com/CcJTZDv.png"
 style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 <a><img onclick="openPc8(); video8.play();" class="minipc8" id="minipc8" src="https://i.imgur.com/6ZRfIhx.png"
+style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
+<a><img onclick="openPc9(); video9.play();" class="minipc9" id="minipc9" src="https://i.imgur.com/QEXAmMd.png"
+style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
+<a><img onclick="openPc10(); video10.play();" class="minipc10" id="minipc10" src="https://i.imgur.com/BsjVH3E.png"
 style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 </div>
 
@@ -797,6 +882,42 @@ function video8unmute() { vid8.volume = 1;}</script>
 </div>
 
 
+<div id="pc9" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closePc9(); video9.pause();" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<div style="position:absolute; z-index:30; top:462px; left:520px; width:300px; height:15px;"><font style="color:#BC9F9F; font-size:11px; font-family:verdana; letter-spacing:1px;">꒰ <a style="text-decoration: none;" id="linkbjinho" href="https://youtu.be/paLu3no5OmQ" target="_blank">source</a> ꒱</font></div>
+
+<script>function pausev9(){document.getElementById("paused9").style.display = "block";document.getElementById("playd9").style.display = "none";} function playv9(){document.getElementById("playd9").style.display = "block";document.getElementById("paused9").style.display = "none";}</script>
+<img onclick="video9mute(); pausev9();" id="playd9" src="https://i.imgur.com/LWKfsRR.png" style="display: block; position:absolute; z-index:29; top:100px; left:420px;">
+<img onclick="video9unmute(); playv9();" id="paused9" src="https://i.imgur.com/LWKfsRR.png" style="display: none; position:absolute; z-index:29; top:100px; left:420px;">
+<video id="video9" width="400px" height="295px" style="filter: saturate(70%) brightness(105%); background-color: rgba(255,255,255,0.5); position:absolute; z-index:27; top:148px; left:520px; object-fit: cover;" loop poster="https://i.imgur.com/AoB9RMv.png" onplaying="hideControls9(this)" onwaiting="showControls9(this)">
+<source src="https://files.catbox.moe/uyp2tn.mp4" type="video/mp4"/>
+</video>
+<script>var vid9 = document.getElementById("video9");
+function video9mute() { vid9.volume = 0;} 
+function video9unmute() { vid9.volume = 1;}</script>
+<div style="width: 400px; height:295px; background-color: rgba(255,255,255,0.25); position:absolute; z-index:28; top:148px; left:520px; object-fit: cover;"></div>
+<script>function hideControls9(event){ event.controls=false; } function showControls9(event){ setTimeout(function(){ event.controls=true; },1000); }</script>
+</div>
+
+
+<div id="pc10" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closePc10(); video10.pause();" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<div style="position:absolute; z-index:30; top:462px; left:520px; width:300px; height:15px;"><font style="color:#BC9F9F; font-size:11px; font-family:verdana; letter-spacing:1px;">꒰ <a style="text-decoration: none;" id="linkbjinho" href="https://youtu.be/qWEbNJbi9qI" target="_blank">source</a> ꒱</font></div>
+
+<script>function pausev10(){document.getElementById("paused10").style.display = "block";document.getElementById("playd10").style.display = "none";} function playv10(){document.getElementById("playd10").style.display = "block";document.getElementById("paused10").style.display = "none";}</script>
+<img onclick="video10mute(); pausev10();" id="playd10" src="https://i.imgur.com/LWKfsRR.png" style="display: block; position:absolute; z-index:29; top:100px; left:420px;">
+<img onclick="video10unmute(); playv10();" id="paused10" src="https://i.imgur.com/LWKfsRR.png" style="display: none; position:absolute; z-index:29; top:100px; left:420px;">
+<video id="video10" width="400px" height="295px" style="filter: saturate(70%) brightness(105%); background-color: rgba(255,255,255,0.5); position:absolute; z-index:27; top:148px; left:520px; object-fit: cover;" loop poster="https://i.imgur.com/AoB9RMv.png" onplaying="hideControls10(this)" onwaiting="showControls10(this)">
+<source src="https://files.catbox.moe/jpuadp.mp4" type="video/mp4"/>
+</video>
+<script>var vid10 = document.getElementById("video10");
+function video10mute() { vid10.volume = 0;} 
+function video10unmute() { vid10.volume = 1;}</script>
+<div style="width: 400px; height:295px; background-color: rgba(255,255,255,0.25); position:absolute; z-index:28; top:148px; left:520px; object-fit: cover;"></div>
+<script>function hideControls10(event){ event.controls=false; } function showControls10(event){ setTimeout(function(){ event.controls=true; },1000); }</script>
+</div>
 
 
 
