@@ -141,6 +141,8 @@ html {
 #miniteddy5:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniteddy6{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniteddy6:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniteddy7{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniteddy7:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 
 #minidoily1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
@@ -189,6 +191,12 @@ html {
 #miniradio10:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniradio11{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniradio11:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniradio12{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniradio12:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniradio13{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniradio13:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniradio14{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniradio14:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #minipc1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minipc1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -210,6 +218,8 @@ html {
 #minipc9:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #minipc10{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minipc10:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#minipc11{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#minipc11:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 </style>
 
@@ -302,6 +312,12 @@ document.getElementById("teddy6").style.display = "block";
 }
 function closeTeddy6(){
 document.getElementById("teddy6").style.display = "none";
+}
+function openTeddy7(){
+document.getElementById("teddy7").style.display = "block";
+}
+function closeTeddy7(){
+document.getElementById("teddy7").style.display = "none";
 }
 
 
@@ -443,6 +459,12 @@ document.getElementById("pc10").style.display = "block";
 function closePc10(){
 document.getElementById("pc10").style.display = "none";
 }
+function openPc11(){
+document.getElementById("pc11").style.display = "block";
+}
+function closePc11(){
+document.getElementById("pc11").style.display = "none";
+}
 </script>
 
 
@@ -461,6 +483,8 @@ style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <a><img onclick="openTeddy5()" class="miniteddy5" id="miniteddy5" src="https://i.imgur.com/EPOT1KF.png"
 style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <a><img onclick="openTeddy6()" class="miniteddy6" id="miniteddy6" src="https://i.imgur.com/jimY83R.png"
+style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
+<a><img onclick="openTeddy7()" class="miniteddy7" id="miniteddy7" src="https://i.imgur.com/K1S1wLg.png"
 style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 </div>
 
@@ -498,6 +522,12 @@ style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
 <a><img onclick="closeTeddy6()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
 <img src="https://i.imgur.com/QyIFDLQ.png" style="position:absolute; z-index:28; top:110px; left:340px;">
+</div>
+
+<div id="teddy7" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeTeddy7()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/3jer3Wj.png" style="position:absolute; z-index:28; top:110px; left:340px;">
 </div>
 
 
@@ -706,6 +736,31 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <audio id="audio11" src="https://files.catbox.moe/vsl353.mp3" type="audio/mpeg" loop></audio>
 </div>
 
+<div class="miniradio12" style="display:none;">
+<script>function playa12(){document.getElementById("miniradio12-2").style.display = "block";document.getElementById("miniradio12").style.display = "none";} function pausea12(){document.getElementById("miniradio12").style.display = "block";document.getElementById("miniradio12-2").style.display = "none";}</script>
+<marquee style="color:#fff; font-size:9px; font-family:verdana; letter-spacing:1px; position:absolute; width:118px; z-index:3; top:478px; left:972px;">orisinal - wake up calls</marquee>
+<a><img onclick="audio12.play(); playa12();" id="miniradio12" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: block;"></a>
+<a><img onclick="audio12.pause(); pausea12();" id="miniradio12-2" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: none;"></a>
+<audio id="audio12" src="https://files.catbox.moe/weoxal.mp3" type="audio/mpeg" loop></audio>
+</div>
+
+<div class="miniradio13" style="display:none;">
+<script>function playa13(){document.getElementById("miniradio13-2").style.display = "block";document.getElementById("miniradio13").style.display = "none";} function pausea13(){document.getElementById("miniradio13").style.display = "block";document.getElementById("miniradio13-2").style.display = "none";}</script>
+<marquee style="color:#fff; font-size:9px; font-family:verdana; letter-spacing:1px; position:absolute; width:118px; z-index:3; top:478px; left:972px;">あの日の夢 - 百石元</marquee>
+<a><img onclick="audio13.play(); playa13();" id="miniradio13" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: block;"></a>
+<a><img onclick="audio13.pause(); pausea13();" id="miniradio13-2" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: none;"></a>
+<audio id="audio13" src="https://files.catbox.moe/t8xfiw.mp3" type="audio/mpeg" loop></audio>
+</div>
+
+<div class="miniradio14" style="display:none;">
+<script>function playa14(){document.getElementById("miniradio14-2").style.display = "block";document.getElementById("miniradio14").style.display = "none";} function pausea14(){document.getElementById("miniradio14").style.display = "block";document.getElementById("miniradio14-2").style.display = "none";}</script>
+<marquee style="color:#fff; font-size:9px; font-family:verdana; letter-spacing:1px; position:absolute; width:118px; z-index:3; top:478px; left:972px;">before green gables ost - rainbows and raindrops</marquee>
+<a><img onclick="audio14.play(); playa14();" id="miniradio14" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: block;"></a>
+<a><img onclick="audio14.pause(); pausea14();" id="miniradio14-2" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: none;"></a>
+<audio id="audio14" src="https://files.catbox.moe/biixgj.mp3" type="audio/mpeg" loop></audio>
+</div>
+
+
 
 
 
@@ -729,6 +784,8 @@ style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 <a><img onclick="openPc9(); video9.play();" class="minipc9" id="minipc9" src="https://i.imgur.com/QEXAmMd.png"
 style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 <a><img onclick="openPc10(); video10.play();" class="minipc10" id="minipc10" src="https://i.imgur.com/BsjVH3E.png"
+style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
+<a><img onclick="openPc11(); video11.play();" class="minipc11" id="minipc11" src="https://i.imgur.com/KIYrfZp.png"
 style="position:absolute; z-index:2; top:355px; left:1100px; display:none;"></a>
 </div>
 
@@ -917,6 +974,26 @@ function video10mute() { vid10.volume = 0;}
 function video10unmute() { vid10.volume = 1;}</script>
 <div style="width: 400px; height:295px; background-color: rgba(255,255,255,0.25); position:absolute; z-index:28; top:148px; left:520px; object-fit: cover;"></div>
 <script>function hideControls10(event){ event.controls=false; } function showControls10(event){ setTimeout(function(){ event.controls=true; },1000); }</script>
+</div>
+
+
+
+<div id="pc11" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closePc11(); video11.pause();" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<div style="position:absolute; z-index:30; top:462px; left:520px; width:300px; height:15px;"><font style="color:#BC9F9F; font-size:11px; font-family:verdana; letter-spacing:1px;">꒰ <a style="text-decoration: none;" id="linkbjinho" href="https://youtu.be/OfCUrwl1CBY" target="_blank">source</a> ꒱</font></div>
+
+<script>function pausev11(){document.getElementById("paused11").style.display = "block";document.getElementById("playd11").style.display = "none";} function playv11(){document.getElementById("playd11").style.display = "block";document.getElementById("paused11").style.display = "none";}</script>
+<img onclick="video11mute(); pausev11();" id="playd11" src="https://i.imgur.com/LWKfsRR.png" style="display: block; position:absolute; z-index:29; top:100px; left:420px;">
+<img onclick="video11unmute(); playv11();" id="paused11" src="https://i.imgur.com/LWKfsRR.png" style="display: none; position:absolute; z-index:29; top:100px; left:420px;">
+<video id="video11" width="400px" height="295px" style="filter: saturate(70%) brightness(105%); background-color: rgba(255,255,255,0.5); position:absolute; z-index:27; top:148px; left:520px; object-fit: cover;" loop poster="https://i.imgur.com/AoB9RMv.png" onplaying="hideControls11(this)" onwaiting="showControls11(this)">
+<source src="https://files.catbox.moe/2m5io0.mp4" type="video/mp4"/>
+</video>
+<script>var vid11 = document.getElementById("video11");
+function video11mute() { vid11.volume = 0;} 
+function video11unmute() { vid11.volume = 1;}</script>
+<div style="width: 400px; height:295px; background-color: rgba(255,255,255,0.25); position:absolute; z-index:28; top:148px; left:520px; object-fit: cover;"></div>
+<script>function hideControls11(event){ event.controls=false; } function showControls11(event){ setTimeout(function(){ event.controls=true; },1000); }</script>
 </div>
 
 
