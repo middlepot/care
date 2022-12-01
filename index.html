@@ -143,6 +143,8 @@ html {
 #miniteddy6:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniteddy7{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniteddy7:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniteddy8{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniteddy8:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 
 #minidoily1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
@@ -197,6 +199,8 @@ html {
 #miniradio13:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniradio14{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniradio14:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniradio15{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniradio15:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #minipc1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minipc1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -318,6 +322,12 @@ document.getElementById("teddy7").style.display = "block";
 }
 function closeTeddy7(){
 document.getElementById("teddy7").style.display = "none";
+}
+function openTeddy8(){
+document.getElementById("teddy8").style.display = "block";
+}
+function closeTeddy8(){
+document.getElementById("teddy8").style.display = "none";
 }
 
 
@@ -486,6 +496,8 @@ style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <a><img onclick="openTeddy7()" class="miniteddy7" id="miniteddy7" src="https://i.imgur.com/K1S1wLg.png"
 style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
+<a><img onclick="openTeddy8()" class="miniteddy8" id="miniteddy8" src="https://i.imgur.com/97rD8GA.png"
+style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 </div>
 
 <div id="teddy1" style="display:none;">
@@ -528,6 +540,12 @@ style="position:absolute; z-index:3; top:490px; left:130px; display:none;"></a>
 <img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
 <a><img onclick="closeTeddy7()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
 <img src="https://i.imgur.com/vz52z62.png" style="position:absolute; z-index:28; top:110px; left:340px;">
+</div>
+
+<div id="teddy8" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeTeddy8()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/zVbOyPg.png" style="position:absolute; z-index:28; top:110px; left:340px;">
 </div>
 
 
@@ -760,7 +778,13 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <audio id="audio14" src="https://files.catbox.moe/biixgj.mp3" type="audio/mpeg" loop></audio>
 </div>
 
-
+<div class="miniradio15" style="display:none;">
+<script>function playa15(){document.getElementById("miniradio15-2").style.display = "block";document.getElementById("miniradio15").style.display = "none";} function pausea15(){document.getElementById("miniradio15").style.display = "block";document.getElementById("miniradio15-2").style.display = "none";}</script>
+<marquee style="color:#fff; font-size:9px; font-family:verdana; letter-spacing:1px; position:absolute; width:118px; z-index:3; top:478px; left:972px;">その花びら bgm - m20-2</marquee>
+<a><img onclick="audio15.play(); playa15();" id="miniradio15" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: block;"></a>
+<a><img onclick="audio15.pause(); pausea15();" id="miniradio15-2" src="https://i.imgur.com/ynrtmcD.png"style="position:absolute; z-index:2; top:440px; left:955px; display: none;"></a>
+<audio id="audio15" src="https://files.catbox.moe/qt8nyi.mp3" type="audio/mpeg" loop></audio>
+</div>
 
 
 
