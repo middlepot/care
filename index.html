@@ -206,6 +206,8 @@ html {
 #minidoily5:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #minidoily6{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #minidoily6:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#minidoily7{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#minidoily7:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #miniframe1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniframe1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -217,6 +219,8 @@ html {
 #miniframe4:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 #miniframe5{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniframe5:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
+#miniframe6{opacity: 1; transition: opacity .5s; transition: filter .5s;}
+#miniframe6:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
 
 #miniradio1{opacity: 1; transition: opacity .5s; transition: filter .5s;}
 #miniradio1:hover {opacity: 0.9; transition: opacity .5s; filter: brightness(103%); transition: filter .5s;}
@@ -439,6 +443,12 @@ document.getElementById("doily6").style.display = "block";
 function closeDoily6(){
 document.getElementById("doily6").style.display = "none";
 }
+function openDoily7(){
+document.getElementById("doily7").style.display = "block";
+}
+function closeDoily7(){
+document.getElementById("doily7").style.display = "none";
+}
 
 
 
@@ -472,6 +482,12 @@ document.getElementById("frame5").style.display = "block";
 }
 function closeFrame5(){
 document.getElementById("frame5").style.display = "none";
+}
+function openFrame6(){
+document.getElementById("frame6").style.display = "block";
+}
+function closeFrame6(){
+document.getElementById("frame6").style.display = "none";
 }
 
 
@@ -651,6 +667,8 @@ style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:3
 style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
 <a><img onclick="openDoily6()" class="minidoily6" id="minidoily6" src="https://i.imgur.com/1Xq1sTg.png"
 style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
+<a><img onclick="openDoily7()" class="minidoily7" id="minidoily7" src="https://i.imgur.com/wfInEME.png"
+style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:380px; display:none;"></a>
 </div>
 
 <div id="doily1" style="display:none;">
@@ -689,6 +707,12 @@ style="width:110px; height:auto; position:absolute; z-index:3; top:150px; left:3
 <img src="https://i.imgur.com/1Xq1sTg.png" style="position:absolute; z-index:28; top:80px; left:460px;">
 </div>
 
+<div id="doily7" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeDoily7()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/wfInEME.png" style="position:absolute; z-index:28; top:80px; left:460px;">
+</div>
+
 
 
 
@@ -705,6 +729,8 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <a><img onclick="openFrame4()" class="miniframe4" id="miniframe4" src="https://i.imgur.com/WxYyZLL.png"
 style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
 <a><img onclick="openFrame5()" class="miniframe5" id="miniframe5" src="https://i.imgur.com/yb2NywG.png"
+style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
+<a><img onclick="openFrame6()" class="miniframe6" id="miniframe6" src="https://i.imgur.com/2p6K75P.png"
 style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:520px; display:none;"></a>
 </div>
 
@@ -739,7 +765,11 @@ style="width:210px; height:auto; position:absolute; z-index:3; top:170px; left:5
 <img src="https://i.imgur.com/yb2NywG.png" style="position:absolute; z-index:28; top:120px; left:380px;">
 </div>
 
-
+<div id="frame6" style="display:none;">
+<img src="https://i.imgur.com/D4VN6MT.png" style="position:absolute; z-index:25; top:12px; left:112px;">
+<a><img onclick="closeFrame6()" src="https://i.imgur.com/Q9WJ7H4.png" style="position:absolute; z-index:30; top:85px; left:920px;"></a>
+<img src="https://i.imgur.com/2p6K75P.png" style="position:absolute; z-index:28; top:120px; left:380px;">
+</div>
 
 
 
